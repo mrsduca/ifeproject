@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html,xhtml,html5">
+    <meta name="description" content="这里是IFE小薇学院">
+    <link rel="icon" href="http://ife.baidu.com/2017/asset/common/img/favicon_24c70cf.ico">
+    <base href="#" >
+    <base target="_self">
+    <title>IFE 小薇学院</title>
+</head>
+<body>
+    <h1>欢迎来到IFE 小薇学院</h1>
+    <h3>这是网站导航</h3>
+        <ul>
+            <li>
+                <a href="#pre">
+                    <img src="zy.jpg" alt="图片消失了" title="这是一个图片链接，跳转到预格式化文本" width="20px" height="32px">
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="#imp">重要说明</a></li>
+        </ul>
+        <ul>
+            <li><a href="#tab">表格</a></li>
+        </ul>
+        <ul>
+            <li><a href="#fo">表单</a></li>
+        </ul>
+        <ul>
+            <li><a href="#other">站外导航</a></li>
+        </ul>
+    <h3>这是另外一份网站导航</h3>
+        <dl>
+            <dt><a href="#pre">预格式化文本</a></dt>
+            <dd>描述：摘录自周易</dd>
+        </dl>
+        <dl>
+            <dt><a href="#imp">重要说明</a></dt>
+            <dd>描述：关于重要说明</dd>
+        </dl>
+        <dl>
+            <dt><a href="#tab">表格</a></dt>
+            <dd>描述：关于表格</dd>
+        </dl>
+        <dl>
+            <dt><a href="#fo">表单</a></dt>
+            <dd>描述：关于表单</dd>
+        </dl>
+        <dl>
+            <dt><a href="#other">站外导航</a></dt>
+            <dd>描述：关于站外导航</dd>
+        </dl>
+         <hr>
+    <h4 id="pre">预格式化文本</h4>
+        <pre>
+            天行健，君子以自强不息。
+            地势坤，君子以厚德载物。
+        </pre>
+    <h4 id="imp">重要说明</h4>
+        <p>
+            百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。
+            我们尽力保证课程内容的质量以及学习难度的合理性，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。
+        </p>
+        <p>
+            课程多数题目的解决方案都不是唯一的，这和我们在实际工作中的情况也是一致的。
+            因此，我们的要求不仅仅是实现设计稿的效果，更是要多去思考不同的解决方案，评估不同方案的优劣，然后使用在该场景下最优雅的方式去实现。
+            那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。
+            所以，我们列出的参考资料未必是实现需求所必须的。
+            有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的一部分。
+            在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。
+        </p>
+    <h4 id="tab">表格</h4>
+    <table border="1" >
+        <tr>
+            <th colspan="3">表头</th>
+        </tr>
+        <tr>
+            <td rowspan="2">数据</td>
+            <td>数据</td>
+            <td>数据</td>
+        </tr>
+        <tr>
+            <td>数据</td>
+            <td>数据</td>
+        </tr>
+    </table>
+    <h4 id="fo">表单</h4>
+        <form action="#">
+            帐号：
+            <label><input type="text" name="username"  placeholder="请输入帐号"></label>
+            <br>
+            密码：
+            <label><input type="password" name="password" placeholder="请输入密码"></label>
+            <br>
+            性别：
+            <label><input type="radio" name="sex" value="man">男</label>
+            <label><input type="radio" name="sex" value="female">女</label>
+            <br>
+            城市：
+            <label><select name="city">
+                    <option value="hangzhou">杭州</option>
+                    <option value="beijing">北京</option>
+                    <option value="shanghai">上海</option>
+            </select></label>
+            <br>
+
+            <label><input type="checkbox" name="hobby" value="basketball">篮球</label>
+            <label><input type="checkbox" name="hobby" value="baseball">棒球</label>
+            <label><input type="checkbox" name="hobby" value="football">足球</label>
+            <br>
+
+            自我描述：
+            <br>
+            <label>
+                <textarea name="message"  rows="10" cols="30"></textarea>
+            </label>
+            <br>
+            <button type="submit" >确认提交</button>
+        </form>
+
+    <h3 id="other">站外导航</h3>
+    <ol>
+        <li><a href="http://www.baidu.com" target="_blank">百度一下</a></li>
+        <li><a href="http://ife.baidu.com/" target="_self">百度前端技术学院</a></li>
+        <li><a href="http://ife.baidu.com/college/detail/id/9">百度小薇学院</a></li>
+    </ol>
+</body>
+</html>
